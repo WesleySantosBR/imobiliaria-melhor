@@ -110,13 +110,22 @@ function AddPontos(valor) {
 //         $('#btnSubmit').click();
 //     }
 // }
+// function PesquisarCodigo() {
+//     var codigo = $('#pesquisaCodigo').val();
+//     if (isNullEmptyUndefined(codigo) && $('.pesquisaCodigo').length > 1)
+//         codigo = $('.pesquisaCodigo')[$('.pesquisaCodigo').length -1].value;
+//     $('#pesquisaCodigo').val(codigo);
+//     if (!isNullEmptyUndefined(codigo)) {
+//         window.location.href = "file:///C:/Meus%20Sites/imobiliaria%20melhor/minasimoveis.com.br/Detalhe/Imovel/" + codigo + ".html";
+//     }
+// }
 function PesquisarCodigo() {
     var codigo = $('#pesquisaCodigo').val();
     if (isNullEmptyUndefined(codigo) && $('.pesquisaCodigo').length > 1)
         codigo = $('.pesquisaCodigo')[$('.pesquisaCodigo').length -1].value;
     $('#pesquisaCodigo').val(codigo);
     if (!isNullEmptyUndefined(codigo)) {
-        window.location.href = "file:///C:/Meus%20Sites/imobiliaria%20melhor/minasimoveis.com.br/Detalhe/Imovel/" + codigo + ".html";
+        window.location.href = "https://minasimoveis.com.br/Detalhe/Imovel/" + codigo + ".html";
     }
 }
 

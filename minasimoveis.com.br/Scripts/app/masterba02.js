@@ -125,7 +125,7 @@ function PesquisarCodigo() {
         codigo = $('.pesquisaCodigo')[$('.pesquisaCodigo').length -1].value;
     $('#pesquisaCodigo').val(codigo);
     if (!isNullEmptyUndefined(codigo)) {
-        window.location.href = "https://minasimoveis.com.br/Detalhe/Imovel/" + codigo + ".html";
+        window.location.href = "https://wesleysantosbr.github.io/imobiliaria-melhor/minasimoveis.com.brDetalhe/Imovel/" + codigo + ".html";
     }
 }
 

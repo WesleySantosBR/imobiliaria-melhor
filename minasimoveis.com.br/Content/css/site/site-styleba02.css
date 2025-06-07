@@ -1,0 +1,467 @@
+﻿
+.toast-top-center {
+    top: 12px;
+    margin: 0 auto;
+    left: 0%;
+}
+
+.toast {
+    opacity: 1 !important;
+}
+
+.page-loading {
+    display: none;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(../../../images/gif/Preloader_3.gif) center no-repeat;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.page-loading-text {
+    display: none;
+    position: inherit;
+    left: 47%;
+    top: 57%;
+    z-index: 9999;
+}
+
+.tab-content .active img {
+    /*width: 100%;*/
+    max-height: 600px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.centralizado {
+    text-align: center;
+}
+
+.grey {
+    background: #e8e8e8;
+}
+
+.white {
+    background: #fff;
+}
+
+.login-account .white {
+    background: #fff;
+}
+
+.author-quote .dropzone-square {
+    min-height: 220px;
+}
+
+.font-size-13 {
+    font-size: 13px;
+}
+
+.pr-5 {
+    padding-right: 5px;
+}
+
+.pl-2 {
+    padding-left: 2px
+}
+
+.pb-2 {
+    padding-bottom: 2px;
+}
+
+pb-5 {
+    padding-bottom: 5px;
+}
+
+.wppColor {
+    color: #25d366;
+}
+
+.font-size-18 {
+    font-size: 18px;
+}
+
+.section-title h2, .section-title h3, .bootstrap-select > .dropdown-toggle.bs-placeholder {
+    color: #fff;
+}
+
+.borderBTNFiltro .btn-default, .borderBTNFiltro .btn-default:hover {
+    border-color: black;
+    color: black;
+}
+
+.price_slider_amount > input {
+    color: black;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default {
+    background-color: #b51719;
+}
+
+.bootstrap-select > .dropdown-toggle.bs-placeholder:hover {
+    color: black;
+}
+
+.btn-hover-1:hover {
+    background-color: #b51719;
+    border-color: #b51719;
+}
+
+.fa-facebook {
+    color: #4267b2;
+}
+
+.fa-instagram {
+    color: #ec5c43;
+}
+
+.fa-whatsapp {
+    color: #34af23;
+}
+
+.font-size-30 {
+    font-size: 30px;
+}
+
+.font-size-25 {
+    font-size: 25px;
+}
+
+.font-size-20 {
+    font-size: 20px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+    h3 span.font-size-25, h3 span.font-size-20 {
+        font-weight: normal;
+    }
+
+span.fa-whatsapp {
+    font-size: 1.1em;
+}
+
+span.fa-phone {
+    font-size: 1em;
+}
+
+span.font-size-20 a {
+    margin-bottom: 5px;
+}
+
+.contato-bg {
+    background: rgba(0, 0, 0, 0) url("../../../images/minas-imoveis/banner-1.jpg") no-repeat scroll 0 0 / cover;
+}
+
+.downloads-bg {
+    background: rgba(0, 0, 0, 0) url("../../../images/minas-imoveis/banner-4.jpg") no-repeat scroll 0 0 / cover;
+}
+
+#sticky-header .container {
+    max-width: 95%;
+    width: 95%;
+}
+
+.not-allowed {
+    cursor: not-allowed;
+}
+
+input.pesquisaCodigo {
+    width: 70%;
+    padding: 10px;
+    margin: 10px;
+    border: 0px;
+    border-radius: 30px;
+    background-color: #000;
+    color: #fff;
+    height: 35px;
+    display: unset;
+    padding-left: 45px;
+}
+
+.mobileOnly {
+    display: none
+}
+
+.tamanhoIconSearch {
+    color: #000;;
+    font-size: 17px;
+    padding-top: 18px;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+input.black {
+    color: black;
+    border: solid 1px black;
+    font-weight: 500;
+    padding-left: 60px;
+}
+
+.text-container {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+
+.rcifrao {
+    position: absolute;
+    top: 7px;
+    left: 20px;
+    transition: right 0.2s;
+    color: black;
+}
+
+.msfixo {
+    position: absolute;
+    top: 15px;
+    left: 45px;
+    transition: right 0.2s;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/* CHECKBOX CUSTOMIZADO */
+/* Customize the label (the container) */
+.checkbox-container {
+    /*display: block;*/
+    position: relative;
+    padding-left: 24px;
+    /*margin-bottom: 8px;*/
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+    /* Hide the browser's default checkbox */
+    .checkbox-container input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+    }
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 21px;
+    width: 21px;
+    background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.checkbox-container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a GREEN background */
+.checkbox-container input:checked ~ .checkmark {
+    background-color: #769C16;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox-container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkbox-container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+/* RADIO BUTTON CUSTOMIZADO */
+/* The container */
+.radio-container {
+    /*display: block;*/
+    position: relative;
+    padding-left: 24px;
+    /*margin-bottom: 8px;*/
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+    /* Hide the browser's default radio button */
+    .radio-container input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+    }
+
+/* Create a custom radio button */
+.radiomark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 21px;
+    width: 21px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.radio-container:hover input ~ .radiomark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.radio-container input:checked ~ .radiomark {
+    background-color: #769C16;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.radiomark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radio-container input:checked ~ .radiomark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radio-container .radiomark:after {
+    top: 7px;
+    left: 7px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+
+/* Create a custom radio button */
+.radiomark-white {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 21px;
+    width: 21px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.radio-container:hover input ~ .radiomark-white {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.radio-container input:checked ~ .radiomark-white {
+    background-color: #769C16;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.radiomark-white:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radio-container input:checked ~ .radiomark-white:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radio-container .radiomark-white:after {
+    top: 7px;
+    left: 7px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+
+.center-horizonally {
+    display: flex;
+    justify-content: center;
+}
+
+.find-home-item .bootstrap-select .btn-group .dropdown-toggle .filter-option {
+    color: #999;
+}
+
+.features-include-list .border-grey {
+    border: 1px solid #999;
+}
+
+.features-include-list .border-red {
+    border: 1px solid red;
+}
+
+.huge-green {
+    color: green;
+    font-size: 100px
+}
+
+.color-red {
+    color: red !important;
+}
+
+.simple-border {
+    border: 1px solid black;
+}
+
+.one-block {
+    display: block;
+}
+
+.two-blocks {
+    display: inline-block;
+    width: 48%;
+}
+
+.three-blocks {
+    display: inline-block;
+    width: 30%;
+}
+
+.background-search {
+    background-image: url('../../../images/minas-imoveis/search_and_logo_opaca2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: bottom;
+}

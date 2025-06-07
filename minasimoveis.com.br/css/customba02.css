@@ -1,0 +1,145 @@
+.transparent-header {
+    background: #6f7276;
+}
+
+
+.bg-gray {
+    /*background-color: #9a9696;*/
+    background-color: #6f7276;
+}
+
+.bg-gray-gray {
+    background-color: #f5f5f5;
+}
+
+/*.slider-button:hover, .flat-link > a:hover, .button-1, .brand-item:hover, .go-home:hover {
+    background-color: #b51719;
+    border: solid 1px #b51719;
+}*/
+.flat-desc {
+    background-color: black;
+}
+
+.call-to-bg::before {
+    background: #6f7276 none repeat scroll 0 0;
+}
+
+.for-sale.rent {
+    background-color: #b51719;
+}
+
+.for-sale {
+    background-color: #d73c3e;
+}
+
+.bootstrap-select > .dropdown-toggle.bs-placeholder {
+    color:black;
+}
+
+.btn-default {
+    border-color: #fff;
+}
+
+.price_slider_amount > input {
+    color: black;
+}
+
+/*.ui-widget-content {
+    background: #9e9d9d none repeat scroll 0 0;
+}
+
+    .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-slider .ui-slider-range {
+        background: #b51719 none repeat scroll 0 0;
+    }*/
+
+.mbYTP_wrapper{
+    z-index: 1;
+}
+
+.find-home-item{
+    margin-bottom:30px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    color: #cccfd3;
+}
+
+.flat-desc {
+    color: #fff;
+}
+
+/*.price {
+    color: #769C16;
+}*/
+
+.bg-default {
+    background-color: #372c2c;
+}
+
+.address-info > span{
+    font-size:13px;
+}
+
+.dropdown-menu {
+    background-color: #fff !important;
+    color: #000 !important;
+}
+
+.bs-searchbox input {
+    background-color: #fff;
+    color: #000;
+}
+
+.bootstrap-select.btn-group .dropdown-menu li a span.text {
+    color: #000 !important;
+}
+
+.bootstrap-select.btn-group .no-results {
+    background-color: #fff !important;
+    color: #000 !important;
+}
+
+.btn-default.active, .btn-default:active, .open > .dropdown-toggle.btn-default {
+    background-color: #8e8e8e !important;
+}
+
+.bg-off-white {
+    background-color: #f1f1f1 !important;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 90%;
+    }
+    .container-footer {
+        max-width: 90%;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 90%;
+    }
+    .container-footer {
+        max-width: 90%;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 90%;
+    }
+    .container-footer {
+        max-width: 90%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 90%;
+    }
+    .container-footer {
+        max-width: 90%;
+    }
+}
+
